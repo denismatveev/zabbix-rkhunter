@@ -4,6 +4,11 @@
 
 copy directory scripts in `/etc/zabbix/`
 import template to Zabbix GUI
+edit crontab by `crontab -e -u zabbix`
+
+and add
+
+`0 6 * * * /bin/sh /etc/zabbix/scripts/trapper/rkhunter`
 
 ## Checking
 
