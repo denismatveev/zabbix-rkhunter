@@ -11,6 +11,6 @@ To check just run `zabbix_sender -c /etc/zabbix/zabbix_agentd.conf -k custom.rkh
 and read logs, if in servers logs you see that key became supported, it's OK.
 Also you can run rkhunter in scripts/rkhunter and `tail -f /var/log/rkhunter/rkhunter.log` to watch what's going on.
 
-Of cause you should configure rkhunter before install these scripts for Zabbix.
+Of cause you had to configure rkhunter before install these scripts for Zabbix.
 
 
