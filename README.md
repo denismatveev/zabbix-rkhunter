@@ -11,6 +11,11 @@ and add
 
 `0 6 * * * /bin/sh /etc/zabbix/scripts/trapper/rkhunter`
 
+add to sudoers allowing to run rkhunter as root
+
+`zabbix    ALL=(ALL:ALL) NOPASSWD: /usr/bin/rkhunter`
+
+
 ## Checking
 
 To check just run `zabbix_sender -c /etc/zabbix/zabbix_agentd.conf -k custom.rkhunter -o 0`
