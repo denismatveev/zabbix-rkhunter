@@ -4,6 +4,7 @@
 
 copy directory scripts in `/etc/zabbix/`
 import template to Zabbix GUI
+
 edit crontab by `crontab -e -u zabbix`
 
 and add
